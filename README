@@ -1,0 +1,14 @@
+== Welcome to Goblins
+
+Currently this is an experiment. An HTML based multi-player/world game.
+
+
+== Getting Started
+
+1. At the command prompt, start a new Rails application using the <tt>rails</tt> command
+   and your application name. Ex: rails myapp
+2. Change directory into myapp and start the web server: <tt>script/server</tt> (run with --help for options)
+3. Go to http://localhost:3000/ and get "Welcome aboard: You're riding the Rails!"
+4. Follow the guidelines to start developing your application
+
+

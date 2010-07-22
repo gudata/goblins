@@ -1,0 +1,13 @@
+<div>
+  <%= link_to "нагоре", move_up_player_url($player.id)%>
+  <%= link_to "надолу", move_down_player_url($player.id)%>
+  <%= link_to "ляво", move_left_player_url($player.id)%>
+  <%= link_to "дясно", move_right_player_url($player.id)%>
+
+  <%=
+  $player.world.beasts.collect do |beast|
+      show_creature(beast)
+  end.join("")
+%>
+  <%= yield %>
+</div>
